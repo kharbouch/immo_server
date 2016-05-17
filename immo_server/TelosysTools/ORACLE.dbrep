@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Telosys Database Repository --><root>
+<tableList databaseId="0" databaseName="ORACLE" databaseProductName="Oracle" generation="2015-12-25 21:19:20">
+<table catalog="" databaseType="TABLE" javaBean="Bien" name="BIEN" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_TRANCHE" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refTranche" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref tranche" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DENOMINATION" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="denomination" javaType="java.lang.String" jdbcTypeCode="12" label="Denomination" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="SUP_PROV" dbNotNull="false" dbPosition="4" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="supProv" javaType="java.lang.Long" jdbcTypeCode="3" label="Sup prov" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="SUP_FINALE" dbNotNull="false" dbPosition="5" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="supFinale" javaType="java.lang.Long" jdbcTypeCode="3" label="Sup finale" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TF" dbNotNull="false" dbPosition="6" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="tf" javaType="java.lang.String" jdbcTypeCode="12" label="Tf" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TF_MERE" dbNotNull="false" dbPosition="7" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="tfMere" javaType="java.lang.String" jdbcTypeCode="12" label="Tf mere" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ETAT" dbNotNull="false" dbPosition="8" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="etat" javaType="java.lang.String" jdbcTypeCode="12" label="Etat" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="PRIX_HT" dbNotNull="false" dbPosition="9" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="prixHt" javaType="java.lang.Long" jdbcTypeCode="3" label="Prix ht" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="PRIX_TTC" dbNotNull="false" dbPosition="10" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="prixTtc" javaType="java.lang.Long" jdbcTypeCode="3" label="Prix ttc" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_LIVRAISON" dbNotNull="false" dbPosition="11" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateLivraison" javaType="java.util.Date" jdbcTypeCode="91" label="Date livraison" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ILOT" dbNotNull="false" dbPosition="12" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="ilot" javaType="java.lang.String" jdbcTypeCode="12" label="Ilot" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TANTIEME" dbNotNull="false" dbPosition="13" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="tantieme" javaType="java.lang.String" jdbcTypeCode="12" label="Tantieme" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="QUOTE_PART" dbNotNull="false" dbPosition="14" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="quotePart" javaType="java.lang.String" jdbcTypeCode="12" label="Quote part" maxLength="100" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_PERMIS_HABITER" dbNotNull="false" dbPosition="15" dbSize="7" dbTypeName="DATE" inputType="date" javaName="datePermisHabiter" javaType="java.util.Date" jdbcTypeCode="91" label="Date permis habiter" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="MNT_TVA" dbNotNull="false" dbPosition="16" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="mntTva" javaType="java.lang.Long" jdbcTypeCode="3" label="Mnt tva" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_MNT_1" dbNotNull="false" dbPosition="17" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echMnt1" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech mnt 1" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_MNT_2" dbNotNull="false" dbPosition="18" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echMnt2" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech mnt 2" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_MNT_3" dbNotNull="false" dbPosition="19" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echMnt3" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech mnt 3" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_MNT_4" dbNotNull="false" dbPosition="20" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echMnt4" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech mnt 4" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_DELAI_1" dbNotNull="false" dbPosition="21" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echDelai1" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech delai 1" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_DELAI_2" dbNotNull="false" dbPosition="22" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echDelai2" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech delai 2" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_DELAI_3" dbNotNull="false" dbPosition="23" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echDelai3" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech delai 3" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ECH_DELAI_4" dbNotNull="false" dbPosition="24" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="echDelai4" javaType="java.lang.Long" jdbcTypeCode="3" label="Ech delai 4" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TYPE_BIEN" dbNotNull="false" dbPosition="25" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="typeBien" javaType="java.lang.String" jdbcTypeCode="12" label="Type bien" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NIVEAU" dbNotNull="false" dbPosition="26" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="niveau" javaType="java.lang.String" jdbcTypeCode="12" label="Niveau" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NUM_BIEN" dbNotNull="false" dbPosition="27" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="numBien" javaType="java.lang.String" jdbcTypeCode="12" label="Num bien" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="IMMEUBLE" dbNotNull="false" dbPosition="28" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="immeuble" javaType="java.lang.String" jdbcTypeCode="12" label="Immeuble" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ORIENTATION" dbNotNull="false" dbPosition="29" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="orientation" javaType="java.lang.String" jdbcTypeCode="12" label="Orientation" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="SUP_BALCON" dbNotNull="false" dbPosition="30" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="supBalcon" javaType="java.lang.Long" jdbcTypeCode="3" label="Sup balcon" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="31" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="32" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="BIEN_REFERENCE" dbNotNull="false" dbPosition="33" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="bienReference" javaType="java.lang.Long" jdbcTypeCode="3" label="Bien reference" notNull="false" selected="true"/>
+<fk name="BIEN_R01">
+<fkcol colname="REF_TRANCHE" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="BIEN" tableref="TRANCHE" updaterule="0"/>
+</fk>
+<fk name="BIEN_R02">
+<fkcol colname="BIEN_REFERENCE" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="BIEN" tableref="REFERENCE" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="BIEN_R02" id="LINK_FK_BIEN_R02_O" inverseSideOf="" javaName="reference" javaType="Reference" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="BIEN" targetEntity="Reference" targetTableName="REFERENCE" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="BIEN_REFERENCE" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="BIEN_R01" id="LINK_FK_BIEN_R01_O" inverseSideOf="" javaName="tranche" javaType="Tranche" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="BIEN" targetEntity="Tranche" targetTableName="TRANCHE" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_TRANCHE" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Client" name="CLIENT" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NOM_CLIENT" dbNotNull="false" dbPosition="2" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="nomClient" javaType="java.lang.String" jdbcTypeCode="12" label="Nom client" maxLength="200" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="PRENOM_CLIENT" dbNotNull="false" dbPosition="3" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="prenomClient" javaType="java.lang.String" jdbcTypeCode="12" label="Prenom client" maxLength="200" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="CIN_CLIENT" dbNotNull="false" dbPosition="4" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="cinClient" javaType="java.lang.String" jdbcTypeCode="12" label="Cin client" maxLength="200" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_EXPIRATION" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateExpiration" javaType="java.util.Date" jdbcTypeCode="91" label="Date expiration" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ADRESSE" dbNotNull="false" dbPosition="6" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="adresse" javaType="java.lang.String" jdbcTypeCode="12" label="Adresse" maxLength="200" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_PROFESSION" dbNotNull="false" dbPosition="7" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProfession" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref profession" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_NAISSANCE" dbNotNull="false" dbPosition="8" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateNaissance" javaType="java.util.Date" jdbcTypeCode="91" label="Date naissance" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LIEU_NAISSANCE" dbNotNull="false" dbPosition="9" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="lieuNaissance" javaType="java.lang.String" jdbcTypeCode="12" label="Lieu naissance" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_ETAT_CIVIL" dbNotNull="false" dbPosition="10" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refEtatCivil" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref etat civil" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TEL_1" dbNotNull="false" dbPosition="11" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="tel1" javaType="java.lang.String" jdbcTypeCode="12" label="Tel 1" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TEL_2" dbNotNull="false" dbPosition="12" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="tel2" javaType="java.lang.String" jdbcTypeCode="12" label="Tel 2" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REVENU" dbNotNull="false" dbPosition="13" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="revenu" javaType="java.lang.Long" jdbcTypeCode="3" label="Revenu" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="EMAIL" dbNotNull="false" dbPosition="14" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="email" javaType="java.lang.String" jdbcTypeCode="12" label="Email" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_NATIONALITE" dbNotNull="false" dbPosition="15" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refNationalite" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref nationalite" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_VILLE" dbNotNull="false" dbPosition="16" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refVille" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref ville" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="QUOTE" dbNotNull="false" dbPosition="17" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="quote" javaType="java.lang.Long" jdbcTypeCode="3" label="Quote" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="DOSSIER_CLIENT_R01" id="LINK_FK_DOSSIER_CLIENT_R01_I" inverseSideOf="LINK_FK_DOSSIER_CLIENT_R01_O" javaName="listOfDossierClient" javaType="java.util.List" joinTableName="" mappedBy="client" optional="UNDEFINED" owningSide="false" sourceTableName="CLIENT" targetEntity="DossierClient" targetTableName="DOSSIER_CLIENT" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Dossier" name="DOSSIER" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_BIEN" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refBien" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref bien" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="COMMERCIAL" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="commercial" javaType="java.lang.String" jdbcTypeCode="12" label="Commercial" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ETAT" dbNotNull="false" dbPosition="4" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="etat" javaType="java.lang.String" jdbcTypeCode="12" label="Etat" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_PROJET" dbNotNull="false" dbPosition="5" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProjet" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref projet" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_TRANCHE" dbNotNull="false" dbPosition="6" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refTranche" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref tranche" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TYPE_DESISTEMENT" dbNotNull="false" dbPosition="7" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="typeDesistement" javaType="java.lang.Long" jdbcTypeCode="3" label="Type desistement" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DATE_DESISTEMENT" dbNotNull="false" dbPosition="8" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="dateDesistement" javaType="java.lang.Long" jdbcTypeCode="3" label="Date desistement" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NUM_DOSS_DOC" dbNotNull="false" dbPosition="9" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="numDossDoc" javaType="java.lang.String" jdbcTypeCode="12" label="Num doss doc" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_CONVENTION" dbNotNull="false" dbPosition="10" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refConvention" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref convention" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NUM_VENTE_PROJET" dbNotNull="false" dbPosition="11" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="numVenteProjet" javaType="java.lang.Long" jdbcTypeCode="3" label="Num vente projet" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="12" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="13" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="RECETTE_R01" id="LINK_FK_RECETTE_R01_I" inverseSideOf="LINK_FK_RECETTE_R01_O" javaName="listOfRecette" javaType="java.util.List" joinTableName="" mappedBy="dossier" optional="UNDEFINED" owningSide="false" sourceTableName="DOSSIER" targetEntity="Recette" targetTableName="RECETTE" used="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="DOSSIER_CLIENT_R02" id="LINK_FK_DOSSIER_CLIENT_R02_I" inverseSideOf="LINK_FK_DOSSIER_CLIENT_R02_O" javaName="listOfDossierClient" javaType="java.util.List" joinTableName="" mappedBy="dossier" optional="UNDEFINED" owningSide="false" sourceTableName="DOSSIER" targetEntity="DossierClient" targetTableName="DOSSIER_CLIENT" used="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="ECHEANCE_R01" id="LINK_FK_ECHEANCE_R01_I" inverseSideOf="LINK_FK_ECHEANCE_R01_O" javaName="listOfEcheance" javaType="java.util.List" joinTableName="" mappedBy="dossier" optional="UNDEFINED" owningSide="false" sourceTableName="DOSSIER" targetEntity="Echeance" targetTableName="ECHEANCE" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="DossierClient" name="DOSSIER_CLIENT" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_CLIENT" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refClient" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref client" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_DOSSIER" dbNotNull="false" dbPosition="3" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refDossier" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref dossier" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="QUOTE" dbNotNull="false" dbPosition="4" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="quote" javaType="java.lang.Long" jdbcTypeCode="3" label="Quote" notNull="false" selected="true"/>
+<fk name="DOSSIER_CLIENT_R01">
+<fkcol colname="REF_CLIENT" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="DOSSIER_CLIENT" tableref="CLIENT" updaterule="0"/>
+</fk>
+<fk name="DOSSIER_CLIENT_R02">
+<fkcol colname="REF_DOSSIER" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="DOSSIER_CLIENT" tableref="DOSSIER" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="DOSSIER_CLIENT_R01" id="LINK_FK_DOSSIER_CLIENT_R01_O" inverseSideOf="" javaName="client" javaType="Client" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="DOSSIER_CLIENT" targetEntity="Client" targetTableName="CLIENT" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_CLIENT" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="DOSSIER_CLIENT_R02" id="LINK_FK_DOSSIER_CLIENT_R02_O" inverseSideOf="" javaName="dossier" javaType="Dossier" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="DOSSIER_CLIENT" targetEntity="Dossier" targetTableName="DOSSIER" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_DOSSIER" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Echeance" name="ECHEANCE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_DOSSIER" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refDossier" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref dossier" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NUMERO" dbNotNull="false" dbPosition="3" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="numero" javaType="java.lang.Long" jdbcTypeCode="3" label="Numero" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_ECHEANCE" dbNotNull="false" dbPosition="4" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateEcheance" javaType="java.util.Date" jdbcTypeCode="91" label="Date echeance" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="MONTANT" dbNotNull="false" dbPosition="5" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="montant" javaType="java.lang.Long" jdbcTypeCode="3" label="Montant" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="OBSERVATION" dbNotNull="false" dbPosition="6" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="observation" javaType="java.lang.String" jdbcTypeCode="12" label="Observation" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="POURCENTAGE" dbNotNull="false" dbPosition="7" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="pourcentage" javaType="java.lang.Long" jdbcTypeCode="3" label="Pourcentage" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="8" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="9" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<fk name="ECHEANCE_R01">
+<fkcol colname="REF_DOSSIER" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="ECHEANCE" tableref="DOSSIER" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="ECHEANCE_R01" id="LINK_FK_ECHEANCE_R01_O" inverseSideOf="" javaName="dossier" javaType="Dossier" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="ECHEANCE" targetEntity="Dossier" targetTableName="DOSSIER" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_DOSSIER" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Module" name="MODULE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NIVEAU" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="niveau" javaType="java.lang.String" jdbcTypeCode="12" label="Niveau" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ID_CONPONENET" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="idConponenet" javaType="java.lang.String" jdbcTypeCode="12" label="Id conponenet" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DOMAINE" dbNotNull="false" dbPosition="4" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="domaine" javaType="java.lang.String" jdbcTypeCode="12" label="Domaine" maxLength="100" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="6" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="MODULE_PROFIL_R02" id="LINK_FK_MODULE_PROFIL_R02_I" inverseSideOf="LINK_FK_MODULE_PROFIL_R02_O" javaName="listOfModuleProfil" javaType="java.util.List" joinTableName="" mappedBy="module" optional="UNDEFINED" owningSide="false" sourceTableName="MODULE" targetEntity="ModuleProfil" targetTableName="MODULE_PROFIL" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="ModuleProfil" name="MODULE_PROFIL" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_PROFIL" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProfil" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref profil" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_MODULE" dbNotNull="false" dbPosition="3" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refModule" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref module" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="4" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<fk name="MODULE_PROFIL_R01">
+<fkcol colname="REF_PROFIL" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="MODULE_PROFIL" tableref="PROFIL" updaterule="0"/>
+</fk>
+<fk name="MODULE_PROFIL_R02">
+<fkcol colname="REF_MODULE" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="MODULE_PROFIL" tableref="MODULE" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="MODULE_PROFIL_R02" id="LINK_FK_MODULE_PROFIL_R02_O" inverseSideOf="" javaName="module" javaType="Module" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="MODULE_PROFIL" targetEntity="Module" targetTableName="MODULE" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_MODULE" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="MODULE_PROFIL_R01" id="LINK_FK_MODULE_PROFIL_R01_O" inverseSideOf="" javaName="profil" javaType="Profil" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="MODULE_PROFIL" targetEntity="Profil" targetTableName="PROFIL" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_PROFIL" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Profil" name="PROFIL" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DESCRIPTION" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="description" javaType="java.lang.String" jdbcTypeCode="12" label="Description" maxLength="100" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="3" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="4" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="MODULE_PROFIL_R01" id="LINK_FK_MODULE_PROFIL_R01_I" inverseSideOf="LINK_FK_MODULE_PROFIL_R01_O" javaName="listOfModuleProfil" javaType="java.util.List" joinTableName="" mappedBy="profil" optional="UNDEFINED" owningSide="false" sourceTableName="PROFIL" targetEntity="ModuleProfil" targetTableName="MODULE_PROFIL" used="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_R01" id="LINK_FK_UTILISATEUR_R01_I" inverseSideOf="LINK_FK_UTILISATEUR_R01_O" javaName="listOfUtilisateur" javaType="java.util.List" joinTableName="" mappedBy="profil" optional="UNDEFINED" owningSide="false" sourceTableName="PROFIL" targetEntity="Utilisateur" targetTableName="UTILISATEUR" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Projet" name="PROJET" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LIBELLE" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="libelle" javaType="java.lang.String" jdbcTypeCode="12" label="Libelle" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DESCRIPTION" dbNotNull="false" dbPosition="3" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="description" javaType="java.lang.String" jdbcTypeCode="12" label="Description" maxLength="200" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="VILLE_PROJET" dbNotNull="false" dbPosition="4" dbSize="22" dbTypeName="NUMBER" inputType="text" javaName="villeProjet" javaType="java.lang.Long" jdbcTypeCode="3" label="Ville projet" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="6" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="CODE_PROJET" dbNotNull="false" dbPosition="7" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="codeProjet" javaType="java.lang.String" jdbcTypeCode="12" label="Code projet" maxLength="30" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="TRANCHE_R01" id="LINK_FK_TRANCHE_R01_I" inverseSideOf="LINK_FK_TRANCHE_R01_O" javaName="listOfTranche" javaType="java.util.List" joinTableName="" mappedBy="projet" optional="UNDEFINED" owningSide="false" sourceTableName="PROJET" targetEntity="Tranche" targetTableName="TRANCHE" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Recette" name="RECETTE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_DOSSIER" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refDossier" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref dossier" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="BANQUE" dbNotNull="false" dbPosition="3" dbSize="30" dbTypeName="VARCHAR2" inputType="text" javaName="banque" javaType="java.lang.String" jdbcTypeCode="12" label="Banque" maxLength="30" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="MONTANT" dbNotNull="false" dbPosition="4" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="montant" javaType="java.lang.Long" jdbcTypeCode="3" label="Montant" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_DEPOT" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateDepot" javaType="java.util.Date" jdbcTypeCode="91" label="Date depot" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_VILLE" dbNotNull="false" dbPosition="6" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refVille" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref ville" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NOM_PAYEUR" dbNotNull="false" dbPosition="7" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="nomPayeur" javaType="java.lang.String" jdbcTypeCode="12" label="Nom payeur" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NUM_RECETTE" dbNotNull="false" dbPosition="8" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="numRecette" javaType="java.lang.String" jdbcTypeCode="12" label="Num recette" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_MODE_RECETTE" dbNotNull="false" dbPosition="9" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refModeRecette" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref mode recette" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ETAT" dbNotNull="false" dbPosition="10" dbSize="10" dbTypeName="VARCHAR2" inputType="text" javaName="etat" javaType="java.lang.String" jdbcTypeCode="12" label="Etat" maxLength="10" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="11" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="12" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_ECHEANCE" dbNotNull="false" dbPosition="13" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refEcheance" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref echeance" notNull="false" selected="true"/>
+<fk name="RECETTE_R01">
+<fkcol colname="REF_DOSSIER" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="RECETTE" tableref="DOSSIER" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="RECETTE_R01" id="LINK_FK_RECETTE_R01_O" inverseSideOf="" javaName="dossier" javaType="Dossier" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="RECETTE" targetEntity="Dossier" targetTableName="DOSSIER" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_DOSSIER" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Reference" name="REFERENCE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_TYPE_REFERENCE" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refTypeReference" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref type reference" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LIBELLE" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="libelle" javaType="java.lang.String" jdbcTypeCode="12" label="Libelle" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="ORDRE" dbNotNull="false" dbPosition="4" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="ordre" javaType="java.lang.Long" jdbcTypeCode="3" label="Ordre" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="REF_PROJET" dbNotNull="false" dbPosition="5" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProjet" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref projet" notNull="false" selected="true"/>
+<fk name="REFERENCE_R01">
+<fkcol colname="REF_TYPE_REFERENCE" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="REFERENCE" tableref="REFERENCE_TYPE" updaterule="0"/>
+</fk>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="BIEN_R02" id="LINK_FK_BIEN_R02_I" inverseSideOf="LINK_FK_BIEN_R02_O" javaName="listOfBien" javaType="java.util.List" joinTableName="" mappedBy="reference" optional="UNDEFINED" owningSide="false" sourceTableName="REFERENCE" targetEntity="Bien" targetTableName="BIEN" used="true"/>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="REFERENCE_R01" id="LINK_FK_REFERENCE_R01_O" inverseSideOf="" javaName="referenceType" javaType="ReferenceType" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="REFERENCE" targetEntity="ReferenceType" targetTableName="REFERENCE_TYPE" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_TYPE_REFERENCE" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="ReferenceType" name="REFERENCE_TYPE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LIBELLE" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="libelle" javaType="java.lang.String" jdbcTypeCode="12" label="Libelle" maxLength="100" notNull="false" selected="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="REFERENCE_R01" id="LINK_FK_REFERENCE_R01_I" inverseSideOf="LINK_FK_REFERENCE_R01_O" javaName="listOfReference" javaType="java.util.List" joinTableName="" mappedBy="referenceType" optional="UNDEFINED" owningSide="false" sourceTableName="REFERENCE_TYPE" targetEntity="Reference" targetTableName="REFERENCE" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Tranche" name="TRANCHE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_PROJET" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProjet" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref projet" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LIBELLE" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="libelle" javaType="java.lang.String" jdbcTypeCode="12" label="Libelle" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="DESCRIPTION" dbNotNull="false" dbPosition="4" dbSize="200" dbTypeName="VARCHAR2" inputType="text" javaName="description" javaType="java.lang.String" jdbcTypeCode="12" label="Description" maxLength="200" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="TYPE_TRANCHE" dbNotNull="false" dbPosition="5" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="typeTranche" javaType="java.lang.String" jdbcTypeCode="12" label="Type tranche" maxLength="100" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="6" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="7" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<fk name="TRANCHE_R01">
+<fkcol colname="REF_PROJET" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="TRANCHE" tableref="PROJET" updaterule="0"/>
+</fk>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_TRANCHE_R02" id="LINK_FK_UTILISATEUR_TRANCHE_R02_I" inverseSideOf="LINK_FK_UTILISATEUR_TRANCHE_R02_O" javaName="listOfUtilisateurTranche" javaType="java.util.List" joinTableName="" mappedBy="tranche" optional="UNDEFINED" owningSide="false" sourceTableName="TRANCHE" targetEntity="UtilisateurTranche" targetTableName="UTILISATEUR_TRANCHE" used="true"/>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="BIEN_R01" id="LINK_FK_BIEN_R01_I" inverseSideOf="LINK_FK_BIEN_R01_O" javaName="listOfBien" javaType="java.util.List" joinTableName="" mappedBy="tranche" optional="UNDEFINED" owningSide="false" sourceTableName="TRANCHE" targetEntity="Bien" targetTableName="BIEN" used="true"/>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="TRANCHE_R01" id="LINK_FK_TRANCHE_R01_O" inverseSideOf="" javaName="projet" javaType="Projet" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="TRANCHE" targetEntity="Projet" targetTableName="PROJET" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_PROJET" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="Utilisateur" name="UTILISATEUR" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="NOM" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="nom" javaType="java.lang.String" jdbcTypeCode="12" label="Nom" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="PRENOM" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="prenom" javaType="java.lang.String" jdbcTypeCode="12" label="Prenom" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="LOGIN" dbNotNull="false" dbPosition="4" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="login" javaType="java.lang.String" jdbcTypeCode="12" label="Login" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="PASSWORD" dbNotNull="false" dbPosition="5" dbSize="100" dbTypeName="VARCHAR2" inputType="text" javaName="password" javaType="java.lang.String" jdbcTypeCode="12" label="Password" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_PROFIL" dbNotNull="false" dbPosition="6" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refProfil" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref profil" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="7" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="8" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<fk name="UTILISATEUR_R01">
+<fkcol colname="REF_PROFIL" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="UTILISATEUR" tableref="PROFIL" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_R01" id="LINK_FK_UTILISATEUR_R01_O" inverseSideOf="" javaName="profil" javaType="Profil" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="UTILISATEUR" targetEntity="Profil" targetTableName="PROFIL" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_PROFIL" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+<link cardinality="OneToMany" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_TRANCHE_R01" id="LINK_FK_UTILISATEUR_TRANCHE_R01_I" inverseSideOf="LINK_FK_UTILISATEUR_TRANCHE_R01_O" javaName="listOfUtilisateurTranche" javaType="java.util.List" joinTableName="" mappedBy="utilisateur" optional="UNDEFINED" owningSide="false" sourceTableName="UTILISATEUR" targetEntity="UtilisateurTranche" targetTableName="UTILISATEUR_TRANCHE" used="true"/>
+</table>
+<table catalog="" databaseType="TABLE" javaBean="UtilisateurTranche" name="UTILISATEUR_TRANCHE" schema="USERIMMO">
+<column dbComment="" dbDefaultValue="" dbName="ID" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="id" javaType="java.lang.Long" jdbcTypeCode="3" label="Id" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_UTILISATEUR" dbNotNull="false" dbPosition="2" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refUtilisateur" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref utilisateur" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbForeignKey="true" dbName="REF_TRANCHE" dbNotNull="false" dbPosition="3" dbSize="22" dbTypeName="NUMBER" inputType="number" javaName="refTranche" javaType="java.lang.Long" jdbcTypeCode="3" label="Ref tranche" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_CREATION" dbNotNull="false" dbPosition="4" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateCreation" javaType="java.util.Date" jdbcTypeCode="91" label="Date creation" notNull="false" selected="true"/>
+<column dateType="D" dbComment="" dbDefaultValue="" dbName="DATE_MAJ" dbNotNull="false" dbPosition="5" dbSize="7" dbTypeName="DATE" inputType="date" javaName="dateMaj" javaType="java.util.Date" jdbcTypeCode="91" label="Date maj" notNull="false" selected="true"/>
+<fk name="UTILISATEUR_TRANCHE_R01">
+<fkcol colname="REF_UTILISATEUR" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="UTILISATEUR_TRANCHE" tableref="UTILISATEUR" updaterule="0"/>
+</fk>
+<fk name="UTILISATEUR_TRANCHE_R02">
+<fkcol colname="REF_TRANCHE" colref="ID" deferrable="7" deleterule="1" sequence="1" tablename="UTILISATEUR_TRANCHE" tableref="TRANCHE" updaterule="0"/>
+</fk>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_TRANCHE_R02" id="LINK_FK_UTILISATEUR_TRANCHE_R02_O" inverseSideOf="" javaName="tranche" javaType="Tranche" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="UTILISATEUR_TRANCHE" targetEntity="Tranche" targetTableName="TRANCHE" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_TRANCHE" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+<link cardinality="ManyToOne" cascade="" fetch="DEFAULT" foreignKeyName="UTILISATEUR_TRANCHE_R01" id="LINK_FK_UTILISATEUR_TRANCHE_R01_O" inverseSideOf="" javaName="utilisateur" javaType="Utilisateur" joinTableName="" mappedBy="" optional="UNDEFINED" owningSide="true" sourceTableName="UTILISATEUR_TRANCHE" targetEntity="Utilisateur" targetTableName="UTILISATEUR" used="true">
+<joinColumns>
+<joinColumn insertable="false" name="REF_UTILISATEUR" nullable="true" referencedColumnName="ID" unique="false" updatable="false"/>
+</joinColumns>
+</link>
+</table>
+</tableList>
+</root>

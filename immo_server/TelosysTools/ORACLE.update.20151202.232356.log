@@ -1,0 +1,15 @@
+Update date : Wed Dec 02 23:23:57 WET 2015
+ 
+ Table 'PROJET' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'LIBELLE' : Size changed to 100
+ . Column 'LIBELLE' : Comment changed to null
+ . Column 'LIBELLE' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'VILLE_PROJET' added
+ (*) table 'PROJET' updated : 4 change(s)
+ 
+ Table 'TRANCHE' not found in repository
+ (+) table 'TRANCHE' added

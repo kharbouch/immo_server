@@ -1,0 +1,44 @@
+Update date : Fri Dec 25 21:18:44 WET 2015
+ 
+ Table 'MODULE' not found in repository
+ (+) table 'MODULE' added
+ 
+ Table 'MODULE_PROFIL' not found in repository
+ (+) table 'MODULE_PROFIL' added
+ 
+ Table 'PROFIL' not found in repository
+ (+) table 'PROFIL' added
+ 
+ Table 'PROJET' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'LIBELLE' : Comment changed to null
+ . Column 'LIBELLE' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'VILLE_PROJET' : Comment changed to null
+ . Column 'VILLE_PROJET' updated
+ . Column 'DATE_CREATION' added
+ . Column 'DATE_MAJ' added
+ (*) table 'PROJET' updated : 6 change(s)
+ 
+ Table 'TRANCHE' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'REF_PROJET' : Comment changed to null
+ . Column 'REF_PROJET' updated
+ . Column 'LIBELLE' : Comment changed to null
+ . Column 'LIBELLE' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'TYPE_TRANCHE' : Comment changed to null
+ . Column 'TYPE_TRANCHE' updated
+ . Column 'DATE_CREATION' added
+ . Column 'DATE_MAJ' added
+ (*) table 'TRANCHE' updated : 7 change(s)
+ 
+ Table 'UTILISATEUR' not found in repository
+ (+) table 'UTILISATEUR' added
+ 
+ Table 'UTILISATEUR_TRANCHE' not found in repository
+ (+) table 'UTILISATEUR_TRANCHE' added

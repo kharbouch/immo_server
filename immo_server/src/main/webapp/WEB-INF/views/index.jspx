@@ -1,0 +1,31 @@
+<div xmlns:s="http://www.springframework.org/tags" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+<jsp:directive.page contentType="text/html;charset=UTF-8" />
+<jsp:output omit-xml-declaration="yes" />
+	<s:message var="app_name" code="application_name" htmlEscape="false" />
+	<s:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
+    
+    <div class="container">
+		<h3>
+			<s:message code="welcome_h3" arguments="${app_name}" />
+		</h3>
+      
+		<ul class="entity">
+            <li><a href="bien">Bien</a></li>
+            <li><a href="client">Client</a></li>
+            <li><a href="dossier">Dossier</a></li>
+            <li><a href="dossierClient">DossierClient</a></li>
+            <li><a href="echeance">Echeance</a></li>
+            <li><a href="module">Module</a></li>
+            <li><a href="moduleProfil">ModuleProfil</a></li>
+            <li><a href="profil">Profil</a></li>
+            <li><a href="projet">Projet</a></li>
+            <li><a href="recette">Recette</a></li>
+            <li><a href="reference">Reference</a></li>
+            <li><a href="referenceType">ReferenceType</a></li>
+            <li><a href="tranche">Tranche</a></li>
+            <li><a href="utilisateur">Utilisateur</a></li>
+            <li><a href="utilisateurTranche">UtilisateurTranche</a></li>
+	    </ul>
+
+    </div> <!-- /container -->
+</div>

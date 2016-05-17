@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databases defaultId="0" maxId="4">
+<db dialect="org.hibernate.dialect.Oracle10gDialect" driver="oracle.jdbc.driver.OracleDriver" id="0" isolationLevel="" name="ORACLE" poolSize="1" typeName="ORACLE" url="jdbc:oracle:thin:@ghabmaroc.ddns.net:1521:orcl">
+<property name="user" value="userimmo"/>
+<property name="password" value="passimmo"/>
+<metadata catalog="" schema="USERIMMO" table-name-exclude="" table-name-include="" table-name-pattern="%" table-types="TABLE"/>
+</db>
+</databases>

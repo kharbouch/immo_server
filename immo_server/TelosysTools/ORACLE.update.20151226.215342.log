@@ -1,0 +1,128 @@
+Update date : Sat Dec 26 21:53:43 WET 2015
+ 
+ Table 'BIEN' not found in repository
+ (+) table 'BIEN' added
+ 
+ Table 'CLIENT' not found in repository
+ (+) table 'CLIENT' added
+ 
+ Table 'DOSSIER' not found in repository
+ (+) table 'DOSSIER' added
+ 
+ Table 'DOSSIER_CLIENT' not found in repository
+ (+) table 'DOSSIER_CLIENT' added
+ 
+ Table 'ECHEANCE' not found in repository
+ (+) table 'ECHEANCE' added
+ 
+ Table 'MODULE' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'NIVEAU' : Comment changed to null
+ . Column 'NIVEAU' updated
+ . Column 'ID_CONPONENET' : Comment changed to null
+ . Column 'ID_CONPONENET' updated
+ . Column 'DOMAINE' : Comment changed to null
+ . Column 'DOMAINE' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'MODULE' updated : 6 change(s)
+ 
+ Table 'MODULE_PROFIL' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'REF_PROFIL' : Comment changed to null
+ . Column 'REF_PROFIL' updated
+ . Column 'REF_MODULE' : Comment changed to null
+ . Column 'REF_MODULE' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'MODULE_PROFIL' updated : 5 change(s)
+ 
+ Table 'PROFIL' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'PROFIL' updated : 4 change(s)
+ 
+ Table 'PROJET' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'LIBELLE' : Comment changed to null
+ . Column 'LIBELLE' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'VILLE_PROJET' : Comment changed to null
+ . Column 'VILLE_PROJET' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'PROJET' updated : 6 change(s)
+ 
+ Table 'RECETTE' not found in repository
+ (+) table 'RECETTE' added
+ 
+ Table 'REFERENCE' not found in repository
+ (+) table 'REFERENCE' added
+ 
+ Table 'REFERENCE_TYPE' not found in repository
+ (+) table 'REFERENCE_TYPE' added
+ 
+ Table 'TRANCHE' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'REF_PROJET' : Comment changed to null
+ . Column 'REF_PROJET' updated
+ . Column 'LIBELLE' : Comment changed to null
+ . Column 'LIBELLE' updated
+ . Column 'DESCRIPTION' : Comment changed to null
+ . Column 'DESCRIPTION' updated
+ . Column 'TYPE_TRANCHE' : Comment changed to null
+ . Column 'TYPE_TRANCHE' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'TRANCHE' updated : 7 change(s)
+ 
+ Table 'UTILISATEUR' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'NOM' : Comment changed to null
+ . Column 'NOM' updated
+ . Column 'PRENOM' : Comment changed to null
+ . Column 'PRENOM' updated
+ . Column 'LOGIN' : Comment changed to null
+ . Column 'LOGIN' updated
+ . Column 'PASSWORD' : Comment changed to null
+ . Column 'PASSWORD' updated
+ . Column 'REF_PROFIL' : Comment changed to null
+ . Column 'REF_PROFIL' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'UTILISATEUR' updated : 8 change(s)
+ 
+ Table 'UTILISATEUR_TRANCHE' found in repository
+ . Column 'ID' : Comment changed to null
+ . Column 'ID' updated
+ . Column 'REF_UTILISATEUR' : Comment changed to null
+ . Column 'REF_UTILISATEUR' updated
+ . Column 'REF_TRANCHE' : Comment changed to null
+ . Column 'REF_TRANCHE' updated
+ . Column 'DATE_CREATION' : Comment changed to null
+ . Column 'DATE_CREATION' updated
+ . Column 'DATE_MAJ' : Comment changed to null
+ . Column 'DATE_MAJ' updated
+ (*) table 'UTILISATEUR_TRANCHE' updated : 5 change(s)
